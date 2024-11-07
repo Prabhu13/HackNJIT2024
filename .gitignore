@@ -1,0 +1,40 @@
+# Environment variables
+.env
+*.env
+
+# Next.js
+.next/
+out/
+node_modules/
+*.log
+*.tsbuildinfo
+
+# FastAPI
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+instance/
+*.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# AWS specific
+# AWS keys (do not store credentials in the repo)
+*.pem
+*.key
+
+# Ignore any OS or AMI-specific files that might be created
+.DS_Store
+Thumbs.db
+
+# System files
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,1 @@
+curl -X POST "http://52.23.220.166:8000/compare/" -F "file1=../images/2e7fb924d9f949fe8f2957510277af6a.png" -F "file2=../aa6ff04aeb8040a7a94e6dcb28c4937a.png"
