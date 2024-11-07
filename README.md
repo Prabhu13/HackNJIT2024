@@ -42,7 +42,3 @@ To get started with the project:
 4. Configure your AWS environment using Terraform to deploy the large model for image similarity scoring.
 5. Update your `.env` file with necessary API keys and environment variables.
 
-## Usage
-Run the following command to start the game server:
-```bash
-python image_comparison.py <image1_path> <image2_path>
